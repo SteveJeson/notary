@@ -1,0 +1,24 @@
+server:
+  port: 8081
+info:
+  head: head
+  body: body
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+    shutdown:
+      enabled: false
+spring:
+  application:
+    name: notary-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+    healthcheck:
+      enabled: true
