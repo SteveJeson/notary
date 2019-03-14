@@ -4,9 +4,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.bm</groupId>
-    <artifactId>notary</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.3.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.bm</groupId>
   <artifactId>eureka-server</artifactId>
@@ -14,12 +15,16 @@
   <name>eureka-server</name>
   <description>Eureka server for Spring Cloud</description>
 
+  <properties>
+    <cloud.eureka.server.version>1.4.6.RELEASE</cloud.eureka.server.version>
+  </properties>
+
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-eureka-server</artifactId>
-      <version>1.4.6.RELEASE</version>
+      <version>${cloud.eureka.server.version}</version>
     </dependency>
   </dependencies>
 
