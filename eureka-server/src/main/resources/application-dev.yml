@@ -8,7 +8,8 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
+      ## 默认注册中心地址，多个以逗号隔开
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
-    enable-self-preservation: true
+    enable-self-preservation: false
     renewal-percent-threshold: 0.60

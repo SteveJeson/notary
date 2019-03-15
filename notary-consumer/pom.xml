@@ -16,6 +16,7 @@
 
   <properties>
     <java.version>1.8</java.version>
+    <cloud.hystrix.version>1.4.6.RELEASE</cloud.hystrix.version>
   </properties>
 
   <dependencies>
@@ -35,6 +36,13 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-ribbon</artifactId>
       <version>${cloud.ribbon.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-hystrix -->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-hystrix</artifactId>
+      <version>${cloud.hystrix.version}</version>
     </dependency>
 
   </dependencies>
