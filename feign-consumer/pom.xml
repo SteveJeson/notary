@@ -9,9 +9,9 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.bm</groupId>
-  <artifactId>notary-consumer</artifactId>
+  <artifactId>feign-consumer</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>notary-consumer</name>
+  <name>feign-consumer</name>
   <description>Demo project for Spring Boot</description>
 
   <properties>
@@ -30,18 +30,17 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-ribbon -->
+    <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-feign -->
     <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-ribbon</artifactId>
-      <version>${cloud.ribbon.version}</version>
+      <artifactId>spring-cloud-starter-feign</artifactId>
+      <version>${cloud.feign.version}</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-hystrix -->
     <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-hystrix</artifactId>
-      <version>${cloud.hystrix.version}</version>
+      <groupId>com.bm</groupId>
+      <artifactId>notary-service-api</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
     </dependency>
 
   </dependencies>

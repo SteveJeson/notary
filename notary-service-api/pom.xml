@@ -9,10 +9,10 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.bm</groupId>
-  <artifactId>notary-consumer</artifactId>
+  <artifactId>notary-service-api</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>notary-consumer</name>
-  <description>Demo project for Spring Boot</description>
+  <name>notary-service-api</name>
+  <description>notary service api</description>
 
   <properties>
     <java.version>1.8</java.version>
@@ -29,21 +29,6 @@
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
     </dependency>
-
-    <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-ribbon -->
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-ribbon</artifactId>
-      <version>${cloud.ribbon.version}</version>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-hystrix -->
-    <dependency>
-      <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-hystrix</artifactId>
-      <version>${cloud.hystrix.version}</version>
-    </dependency>
-
   </dependencies>
 
   <build>
