@@ -23,6 +23,6 @@ public interface HelloService {
   @RequestMapping(value = "hello5", method = RequestMethod.GET)
   User hello(@RequestHeader("name") String name, @RequestHeader("age") Integer age);
 
-  @RequestMapping(value = "hello6", method = RequestMethod.GET)
+  @RequestMapping(value = "hello6", method = RequestMethod.POST)
   String hello(@RequestBody User user);
 }
