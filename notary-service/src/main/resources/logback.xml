@@ -7,7 +7,7 @@
 
     <!--输出sql语句-->
     <logger name="com.bm.notaryservice" level="debug"/>
-    <property name="log.path" value="/etc/opt/logs"></property>
+    <property name="log.path" value="etc.opt.logs"></property>
     <property name="maxHistory" value="30"/>
     <property name="maxFileSize" value="50MB"/>
 
