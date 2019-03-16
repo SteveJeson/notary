@@ -36,6 +36,7 @@
     <module>notary-service</module>
     <module>notary-consumer</module>
     <module>feign-consumer</module>
+    <module>notary-service-api</module>
   </modules>
 
   <dependencies>
