@@ -15,10 +15,10 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-public class FeignConsumerApplication {
+public class NotaryWebApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(FeignConsumerApplication.class, args);
+    SpringApplication.run(NotaryWebApplication.class, args);
   }
 
 }

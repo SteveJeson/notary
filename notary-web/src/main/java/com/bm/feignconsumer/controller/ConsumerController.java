@@ -1,7 +1,7 @@
 package com.bm.feignconsumer.controller;
 
 import com.bm.feignconsumer.service.RefactorHelloService;
-import com.bm.notaryserviceapi.model.User;
+import com.bm.notaryserviceapi.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

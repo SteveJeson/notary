@@ -1,6 +1,6 @@
 package com.bm.notaryservice.controller;
 
-import com.bm.notaryserviceapi.model.User;
+import com.bm.notaryserviceapi.entity.User;
 import com.bm.notaryserviceapi.service.HelloService;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;

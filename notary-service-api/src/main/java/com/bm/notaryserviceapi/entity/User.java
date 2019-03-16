@@ -1,4 +1,4 @@
-package com.bm.notaryserviceapi.model;
+package com.bm.notaryserviceapi.entity;
 
 public class User {
 

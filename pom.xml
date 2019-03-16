@@ -38,8 +38,8 @@
   <modules>
     <module>eureka-server</module>
     <module>notary-service</module>
-    <module>feign-consumer</module>
     <module>notary-service-api</module>
+    <module>notary-web</module>
   </modules>
 
   <dependencies>

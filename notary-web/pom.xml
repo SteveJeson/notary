@@ -9,9 +9,9 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.bm</groupId>
-  <artifactId>feign-consumer</artifactId>
+  <artifactId>notary-web</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>feign-consumer</name>
+  <name>notary-web</name>
   <description>Demo project for Spring Boot</description>
 
   <properties>
