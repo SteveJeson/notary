@@ -9,10 +9,10 @@
     <version>1.5.17.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-  <groupId>com.bm</groupId>
-  <artifactId>notary</artifactId>
+  <groupId>com.fahui</groupId>
+  <artifactId>fahui</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>notary</name>
+  <name>fahui</name>
   <description>Paren project for Spring Boot</description>
   <packaging>pom</packaging>
 
@@ -21,25 +21,25 @@
     <project.version>0.0.1-SNAPSHOT</project.version>
     <guava.version>27.0.1-jre</guava.version>
     <guava.cache.version>19.0.0</guava.cache.version>
-    <eureka-server.version>0.0.1-SNAPSHOT</eureka-server.version>
-    <notary.version>0.0.1-SNAPSHOT</notary.version>
+    <fh.registration.server.version>0.0.1-SNAPSHOT</fh.registration.server.version>
+    <fh.version>0.0.1-SNAPSHOT</fh.version>
     <logback.all.version>1.2.3</logback.all.version>
     <slf4j.version>1.7.25</slf4j.version>
     <cloud.starter.eureka>1.4.6.RELEASE</cloud.starter.eureka>
     <cloud.ribbon.version>1.4.6.RELEASE</cloud.ribbon.version>
     <cloud.hystrix.version>1.4.6.RELEASE</cloud.hystrix.version>
     <cloud.feign.version>1.4.6.RELEASE</cloud.feign.version>
-    <notary.service.api.version>0.0.1-SNAPSHOT</notary.service.api.version>
+    <fh.service.api.version>0.0.1-SNAPSHOT</fh.service.api.version>
     <mybatis.version>2.0.0</mybatis.version>
     <pagehelper.version>1.2.10</pagehelper.version>
     <mybatis.generator.version>1.3.6</mybatis.generator.version>
   </properties>
 
   <modules>
-    <module>eureka-server</module>
-    <module>notary-service</module>
-    <module>notary-service-api</module>
-    <module>notary-web</module>
+    <module>fh-registration-server</module>
+    <module>fh-service</module>
+    <module>fh-service-api</module>
+    <module>fh-web</module>
   </modules>
 
   <dependencies>
